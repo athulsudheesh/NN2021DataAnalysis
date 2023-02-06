@@ -1,0 +1,51 @@
+{
+  "R": {
+    "Version": "4.2.2",
+    "Repositories": [
+      {
+        "Name": "CRAN",
+        "URL": "https://cloud.r-project.org"
+      }
+    ]
+  },
+  "Packages": {
+    "BiocManager": {
+      "Package": "BiocManager",
+      "Version": "1.30.19",
+      "Source": "Repository",
+      "Requirements": []
+    },
+    "CPTtools": {
+      "Package": "CPTtools",
+      "Version": "0.7-2",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "ralmond",
+      "RemoteRepo": "CPTtools",
+      "RemoteRef": "master",
+      "RemoteSha": "14449ddd47a24d120f888977c2368283ff69c4fc",
+      "Requirements": []
+    },
+    "bnlearn": {
+      "Package": "bnlearn",
+      "Version": "4.8.1",
+      "Source": "Repository",
+      "Requirements": []
+    },
+    "devtools": {
+      "Package": "devtools",
+      "Version": "2.4.5",
+      "Source": "Repository",
+      "Requirements": []
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.16.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c9e8442ab69bc21c9697ecf856c1e6c7",
+      "Requirements": []
+    }
+  }
+}
